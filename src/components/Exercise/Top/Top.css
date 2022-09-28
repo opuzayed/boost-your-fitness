@@ -1,0 +1,8 @@
+.top-section{
+    display : flex;
+    align-items: center;
+    /* margin: 30px; */
+}
+.top-section h3{
+    margin : 10px;
+}
