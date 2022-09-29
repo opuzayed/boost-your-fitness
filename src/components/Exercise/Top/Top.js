@@ -1,18 +1,16 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
-import './Top.css'; 
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
+import './Top.css';
 const Top = () => {
     return (
-       <div>
-         <div className='top-section'>
-            <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
-            <h3>Boost-Your-Power</h3>
+        <div>
+            <div className="exercise-container">
+                <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
+                <h3>Boost-Your-Fitness</h3>
+            </div>
+            <h4 className='select'>Select today’s exercise</h4>
         </div>
-        <h4>Select today’s exercise</h4>
-       </div>
-        
     );
 };
 

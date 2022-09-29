@@ -1,8 +1,11 @@
-.top-section{
-    display : flex;
+.exercise-container{
+    display:flex;
     align-items: center;
-    /* margin: 30px; */
+    padding-left:140px;
 }
-.top-section h3{
-    margin : 10px;
+.exercise-container h3{
+    padding-left: 10px;
+}
+.select{
+    padding-left: 140px;
 }

@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "ULTRABOOST 22 SHOES",
+      "img": "https://images.pexels.com/photos/3771071/pexels-photo-3771071.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "time required" :  "30s"
+    },
+    {
+      "id": 2,
+      "name": "ULTRABOOST 22 SHOES",
+      "img": "https://images.pexels.com/photos/3771071/pexels-photo-3771071.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "time required" :  "30s"
+    },
+    {
+      "id": 3,
+      "name": "ULTRABOOST 22 SHOES",
+      "img": "https://images.pexels.com/photos/3771071/pexels-photo-3771071.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "time required" :  "30s"
+    },
+    {
+      "id": 4,
+      "name": "ULTRABOOST 22 SHOES",
+      "img": "https://images.pexels.com/photos/3771071/pexels-photo-3771071.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "time required" :  "30s"
+    },
+    {
+      "id": 5,
+      "name": "ULTRABOOST 22 SHOES",
+      "img": "https://images.pexels.com/photos/3771071/pexels-photo-3771071.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "time required" :  "30s"
+    },
+    {
+      "id": 6,
+      "name": "ULTRABOOST 22 SHOES",
+      "img": "https://images.pexels.com/photos/3771071/pexels-photo-3771071.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "time required" :  "30s"
+    }
+    
+]
