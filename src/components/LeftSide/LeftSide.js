@@ -4,7 +4,7 @@ import LeftSideCards from './../LeftSideCards/LeftSideCards';
 
 const LeftSide = () => {
     return (
-        <div style={{marginTop:'80px'}}>
+        <div style={{marginTop:'80px'}} className='set-bg'>
            <LeftSideTop></LeftSideTop>
            <LeftSideCards></LeftSideCards>
         </div>

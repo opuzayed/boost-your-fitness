@@ -6,7 +6,7 @@ function App()
 {
   return (
     <div className='container'>
-      <LeftSide></LeftSide>
+     <div className='leftside-bg'> <LeftSide></LeftSide></div>
       <RightSide></RightSide>
     </div>
   );
