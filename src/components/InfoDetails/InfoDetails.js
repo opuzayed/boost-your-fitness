@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../Assets/Images/opu.jpg';
 import Break from '../Break/Break';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import './InfoDetails.css';
 const InfoDetails = () => {
     return (
@@ -15,6 +16,7 @@ const InfoDetails = () => {
                 We help athletes to up their game through proper nutrition.
             </p>
             <Break></Break>
+            <ExerciseDetails></ExerciseDetails>
         </div>
     );
 };

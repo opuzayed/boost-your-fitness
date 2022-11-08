@@ -1,0 +1,10 @@
+.details-time{
+    display: flex;
+    height: 60px;
+    justify-content:space-between;
+    background-color: aliceblue;
+    border-radius: 5px;
+    align-items: center;
+}
+
+   

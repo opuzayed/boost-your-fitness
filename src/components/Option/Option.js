@@ -12,7 +12,7 @@ const Option = ({option, handleAddToCart}) => {
             </div>
             <button onClick={() => handleAddToCart(option)} className='btn-cart'>
                 <p className='btn-text'>Add to List</p>
-                {/* <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon> */}
+                
             </button>
         </div>
     );
