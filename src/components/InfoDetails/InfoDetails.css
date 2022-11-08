@@ -1,0 +1,10 @@
+.img-style{
+    display:flex;
+    align-items: center;
+}
+.img-style img {
+    border-radius: 50%;
+}
+.img-style h4{
+    margin-left: 20px;
+}
