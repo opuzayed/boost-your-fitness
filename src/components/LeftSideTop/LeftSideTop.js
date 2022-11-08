@@ -7,11 +7,11 @@ const LeftSideTop = () => {
            <div className='header-title'>
           <div> <img src={img} alt="" /></div>
                 <div style={{marginLeft:'30px'}}>
-                    <h2>Boost Your Fitness</h2>
+                    <h4>Boost Your Fitness</h4>
                 </div>
            </div>
            <div style={{marginTop:'30px'}}>
-            <h4>Select today’s exercise</h4>
+            <h5>Select today’s exercise</h5>
            </div>
         </div>
     );

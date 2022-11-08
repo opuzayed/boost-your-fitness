@@ -1,0 +1,18 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.left-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+.details-container{
+    background-color: rgba(0, 255, 157, 0.3);
+}
+@media screen and (max-width:1100px) {
+    .products-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
