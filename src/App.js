@@ -1,10 +1,13 @@
 import './App.css';
-import Exercise from './components/Exercise/Exercise';
+
+import LeftSide from './components/LeftSide/LeftSide';
+import RightSide from './components/RightSide/RightSide';
 function App() 
 {
   return (
-    <div>
-      <Exercise></Exercise>
+    <div className='container'>
+      <LeftSide></LeftSide>
+      <RightSide></RightSide>
     </div>
   );
 }
