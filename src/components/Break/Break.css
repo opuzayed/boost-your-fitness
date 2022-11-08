@@ -1,0 +1,25 @@
+.break-time{
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    border-radius: 5px;
+    align-items: center;
+}
+.break-time span{
+    margin-top: 10px;
+    font-weight:bold;
+    border-radius:2px;
+    border-radius: 50%;
+    
+}
+
+.time-style{
+    height: 50px;
+    width: 50px;
+    background-color:blanchedalmond;
+    border-radius: 50%;
+} 
+.time-style:hover{
+    background-color:cadetblue;
+}
