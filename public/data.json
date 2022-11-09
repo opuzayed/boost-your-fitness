@@ -2,37 +2,37 @@
   { 
     "id": "1",
     "title": "Push-Up",
-    "img": "../src/Assets/Images/1.jpg",
+    "img": "https://cdn.evolve-mma.com/wp-content/uploads/2021/05/rich-franklin-push-up.jpeg",
     "time": "10s"
   },
   {
     "id": "2",
     "title": "Pull-Up",
-    "img": "../src/Assets/Images/2.jpg",
+    "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/12/Fit-Man-Performing-A-Pullup-In-The-Park.jpg?quality=86&strip=all",
     "time": "15s"
   },
   {
     "id": "3",
     "title": "Squats",
-    "img": "../src/Assets/Images/3.jpg",
+    "img": "https://post.healthline.com/wp-content/uploads/2019/09/man-squatting-outdoors-732x549-thumbnail.jpg",
     "time": "20s"
   },
   {
     "id": "4",
     "title": "Sit-Ups",
-    "img": "../src/Assets/Images/4.jpg",
+    "img": "https://media.istockphoto.com/id/598666666/photo/incline-sit-up-training.jpg?s=612x612&w=0&k=20&c=BdMwcYEIDps9x_DD73hKUOeE0b6kdV9k80mD1WAVgi0=",
     "time": "25s"
   },
   {
     "id": "5",
     "title": "Bench-Press",
-    "img": "../src/Assets/Images/5.jpg",
+    "img": "https://barbend.com/wp-content/uploads/2017/06/BarBend-Feature-Image-1200-x-675-35.jpg",
     "time" :  "30s"
   },
   {
     "id": "6",
     "title": "Barbell bicep curls",
-    "img": "../src/Assets/Images/6.jpg",
+    "img": "https://image.boxrox.com/2022/01/EZ-Barbell-biceps-curl-1024x580.jpg",
     "time" :  "40s"
   }
     
