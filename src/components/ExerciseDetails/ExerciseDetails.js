@@ -1,7 +1,11 @@
 import React from "react";
 import "./ExerciseDetails.css";
 import Button from "react-bootstrap/Button";
+import toast, { Toaster } from 'react-hot-toast';
 const ExerciseDetails = () => {
+  const showAlert = () => {
+    toast.success('You have completed todays task');
+  }
   return (
     <div style={{ marginTop: "30px" }}>
       <h4 style={{color:'white'}}>Exercise Details</h4>
@@ -20,9 +24,10 @@ const ExerciseDetails = () => {
       </div>
       <br />
       <div className="d-grid gap-2">
-        <Button variant="primary" size="lg">
+        <Button onClick={showAlert} variant="primary" size="lg">
             Activity Completed
         </Button>
+        <Toaster/>
       </div>
     </div>
   );
