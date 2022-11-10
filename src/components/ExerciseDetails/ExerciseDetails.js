@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 const ExerciseDetails = () => {
   return (
     <div style={{ marginTop: "30px" }}>
-      <h4>Exercise Details</h4>
+      <h4 style={{color:'white'}}>Exercise Details</h4>
       <div className="details-time">
         <p style={{ marginLeft: "10px", marginTop: "7px", fontWeight: "bold" }}>
           Exercise Time

@@ -3,7 +3,7 @@ import './Break.css';
 const Break = () => {
     return (
         <div style={{marginTop:'30px'}}>
-            <h4>Add a Break</h4>
+            <h4 style={{color:'white'}}>Add a Break</h4>
             <div className='break-time'>
                 <button className='time-style'><span>10s</span></button>
                 <button className='time-style'><span>20s</span></button>

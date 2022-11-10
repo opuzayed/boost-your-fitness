@@ -1,6 +1,6 @@
 import React from 'react';
 import './Option.css';
-const Option = ({option, handleAddToCart}) => {
+const Option = ({option, handleAddTime}) => {
     const { img, title, time} = option;
     
     return (
@@ -10,7 +10,7 @@ const Option = ({option, handleAddToCart}) => {
                 <h5 className='option-name'>{title}</h5>
                 <p>Time Required: {time}</p>
             </div>
-            <button onClick={() => handleAddToCart(option)} className='btn-cart'>
+            <button onClick={() => handleAddTime(option)} className='btn-cart'>
                 <p className='btn-text'>Add to List</p>
             </button>
         </div>
