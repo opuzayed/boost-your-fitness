@@ -4,7 +4,7 @@ import LeftSideTop from "../LeftSideTop/LeftSideTop";
 import Option from "../Option/Option";
 import "./Main.css";
 import Accordion from "react-bootstrap/Accordion";
-
+let times = 0;
 const Main = () => {
   const [options, setOptions] = useState([]);
   const [time, setTime] = useState(0);
@@ -16,12 +16,15 @@ const Main = () => {
   }, []);
 
   const handleAddTime = (selectedProduct) => {
-    
+    if (selectedProduct.time > 0) {
+      times += selectedProduct.time;
+      setTime(times);
+    }
   };
 
   return (
     <div>
-      <div className="container-fluid bg-secondary">
+      <div className="container-fluid bg-custom">
         <div className="row">
           <div className="col-md-8 col-12">
             <LeftSideTop></LeftSideTop>
@@ -34,6 +37,9 @@ const Main = () => {
                 ></Option>
               ))}
             </div>
+            <h2 className="text-white text-center mb-5 font-bold">
+              Question's Section
+            </h2>
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>How does react works?</Accordion.Header>
@@ -66,14 +72,15 @@ const Main = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                What types of work useEffect do except data loading?
+                  What types of work useEffect do except data loading?
                 </Accordion.Header>
                 <Accordion.Body>
-                1.Running on state change: validating input field.
-                2.Running on state change: live filtering
-                3.Running on state change: trigger animation on new array value.
-                4.Running on props change: update paragraph list on fetched API data update.
-                5.Running on props change: updating fetched API data to get BTC updated price
+                  1.Running on state change: validating input field. 2.Running
+                  on state change: live filtering 3.Running on state change:
+                  trigger animation on new array value. 4.Running on props
+                  change: update paragraph list on fetched API data update.
+                  5.Running on props change: updating fetched API data to get
+                  BTC updated price
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
