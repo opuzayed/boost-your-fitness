@@ -2,7 +2,7 @@ import React from "react";
 import "./ExerciseDetails.css";
 import Button from "react-bootstrap/Button";
 import toast, { Toaster } from "react-hot-toast";
-const ExerciseDetails = ({ time }) => {
+const ExerciseDetails = ({ time, breakTime }) => {
   const showAlert = () => {
     toast.success("You have completed todays task");
   };
@@ -21,7 +21,7 @@ const ExerciseDetails = ({ time }) => {
         <p style={{ marginLeft: "10px", marginTop: "7px", fontWeight: "bold" }}>
           Break Time
         </p>
-        <p style={{ marginRight: "10px", marginTop: "7px" }}>0s</p>
+        <p style={{ marginRight: "10px", marginTop: "7px" }}>{breakTime}s</p>
       </div>
       <br />
       <div className="d-grid gap-2">

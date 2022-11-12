@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../../Assets/Images/opu.jpg";
 import Break from "../Break/Break";
 import ExerciseDetails from "../ExerciseDetails/ExerciseDetails";
 import "./InfoDetails.css";
+let breaks = 0;
+
 const InfoDetails = (props) => {
+  const [breakTime, setBreakTime] = useState(0);
   const { time } = props;
+
+  const handleBreakTime = (time) => {
+    breaks = time;
+    setBreakTime(breaks);
+  };
 
   return (
     <div
@@ -25,8 +33,8 @@ const InfoDetails = (props) => {
         people like you to lose weight without breaking a sweat. We help
         athletes to up their game through proper nutrition.
       </p>
-      <Break></Break>
-      <ExerciseDetails time={time}></ExerciseDetails>
+      <Break handleBreakTime={handleBreakTime}></Break>
+      <ExerciseDetails time={time} breakTime={breakTime}></ExerciseDetails>
     </div>
   );
 };
